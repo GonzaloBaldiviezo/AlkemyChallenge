@@ -9,6 +9,7 @@ personajes que lo componen y entender en qué películas estos participaron. Por
 exponer la información para que cualquier frontend pueda consumirla.
 
 Pendientes:
+
   Implementar el envío de mails.
   
   Documentación.
