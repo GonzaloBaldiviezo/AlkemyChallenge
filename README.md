@@ -8,6 +8,8 @@ Consigna: Desarrollar una API para explorar el mundo de Disney, la cual permitir
 personajes que lo componen y entender en qué películas estos participaron. Por otro lado, deberá
 exponer la información para que cualquier frontend pueda consumirla.
 
+La parte de seguridad se implementó con JWT
+
 Pendientes:
 
   Implementar el envío de mails.
