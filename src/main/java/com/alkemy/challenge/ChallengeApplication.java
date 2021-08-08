@@ -20,11 +20,11 @@ public class ChallengeApplication {
 		SpringApplication.run(ChallengeApplication.class, args);
 	}
 
-//	@Bean
-//	CommandLineRunner run(RoleRepository roleRepository) {
-//		return args -> {
-//			roleRepository.save(new Role(null, ROLE_USER));
-//			roleRepository.save(new Role(null, ROLE_ADMIN));
-//		};
-//	}
+	@Bean
+	CommandLineRunner run(RoleRepository roleRepository) {
+		return args -> {
+			roleRepository.save(new Role(null, ROLE_USER));
+			roleRepository.save(new Role(null, ROLE_ADMIN));
+		};
+	}
 }
